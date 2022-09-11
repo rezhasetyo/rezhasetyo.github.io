@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: url(black-panther-minimal-art-8o-1920x1200.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    min-height: 300vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    z-index: 100000;
+    transition: 0.6s;
+}
+
+
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #e5c3f8;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: unset;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    transition: 0.5s;
+    padding: relative;
+    max-width: 0 15px;
+    color: #e5c3f8;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    text-decoration: none;
+    padding-left:15px;
+}
+
+.text-dark-orange {
+    color: darkorange;
+}
+
+.text-purple {
+    color: #570686;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    background: rgb(27, 24, 29);
+    background-repeat: no-repeat;
+    padding: 10vw;
+    
+}
+
+.link-purple  {
+    color: #fff !important;
+}
+
+.link-purple i:hover   {
+    transition: 0.3s;
+    color: darkorange !important;
+}
+
+#myprofile
+{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background: rgb(27, 24, 29,0.1);
+    color: #fff;
+}
+
+#greeting {
+    height: auto;
+    color: #fff;
+}
+
+#profile-hightlight {
+    color: darkorange;
+}
+
+.profile-pic {
+    display: flex;
+    width: auto;
+}
+
+.profile-pic img {
+    width: 350px;
+    height: 350px;
+    border: solid #570686 5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding: 2px;
+}
+
+.profile-detail {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-top: unset;
+
+}
+
+
+.logo-skill {
+    transition: 0.3s;
+}
+
+.logo-skill:hover {
+    transition: 0.3s;
+    transform:scale(1.5);
+}
+
+
+.sticky {
+    background:#fff;
+    padding: 5px 100px;
+    color: #160122;
+}
+
+
+.sticky .logo {
+    color: #35094e;
+}
+.sticky ul li a {
+    color: #160122;
+}
+
+
+.mb-10-vh {
+    margin-bottom: 10vh;
+}
+
+
+
+.quote {
+    height: auto;
+    background: rgb(58, 33, 73);    
+    padding: 100px 150px;
+
+    color: #fff;
+}
+
+.quote-informasi {
+    height: auto;
+}
+
+.education {
+    background: rgb(27, 24, 29);
+
+}
+.education-content {
+    padding: 10vw;
+}
+
+.myskill {
+    height: auto;
+    background: #210c2e;
+    padding: 8vw 10vw;
+    color: #fff;
+}
+
+
+.myproject {
+    height: auto;
+    color: #fff;
+ 
+}
+
+
+.myproject-content {
+    height: 100%;
+    background: rgb(27, 24, 29);
+    -webkit-backdrop-filter: blur( 4px );
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 8vw 10vw;
+}
+
+.border-purple {
+    border: 3px #570686 solid;
+}
+
+.btn-purple {
+    background-color:#570686 ;
+    color: #fff;
+}
+
+.btn-purple:hover{
+    color: white;
+    background-color: unset;
+    border: solid #570686 1px;
+    transition: 0.3s;
+}
+
+.btn-dark-orange {
+    background-color: darkorange ;
+    color: #000;
+}
+
+.btn-dark-orange:hover {
+    color: white;
+}
+
+.orange-line {
+    height: 0.5vh;
+    width: 8vw;
+    background-color: darkorange;
+}
+
+
+.gallery {
+    height: 100vh;
+    background-color: rgb(58, 45, 82);
+    padding-top: 50px;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    color: white;
+}
+
+.gallery-caption {
+    margin-bottom: 10vh;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.gallery .img-content {
+    transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+
+.gallery .img-content:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.6s;
+}
+
+
+footer {
+    color: #fff;
+    background: #221927;
+    height: auto;
+    padding: 5vh 0;
+}
+
